@@ -26,7 +26,6 @@ while y < 26:
     charVals = list(map(lambda x: chr(x) if(x == 32) else(chr(x + 65)), charList))
 
     #Taken from GeeksForGeeks -- looked like a short way to do it 
-    #test
     listToStr = ''.join([str(elm) for elm in charVals])
 
 
